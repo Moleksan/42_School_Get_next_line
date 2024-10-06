@@ -47,6 +47,8 @@ The program manages a static variable that retains the state between calls to ge
   
 # Usage  
   
+To use this function in your own program, include the header file and call get_next_line with a valid file descriptor. Here’s a simple example:  
+
         #include <fcntl.h>  
         #include <stdio.h>  
   
